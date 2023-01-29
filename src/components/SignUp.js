@@ -3,7 +3,7 @@ import "../styles/Login.css";
 import logo from "../images/amazon-logo-dark.png";
 import { Link, useNavigate } from "react-router-dom";
 
-import { auth } from "../config/firebase";
+import { auth } from "../firebase";
 import {
   createUserWithEmailAndPassword,
 } from "firebase/auth";

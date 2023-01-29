@@ -6,7 +6,7 @@ import Login from "./Login";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 
-import { auth } from "../config/firebase";
+import { auth } from "../firebase";
 import { setUser } from "../redux/actions";
 import Payment from "./Payment";
 

@@ -9,7 +9,7 @@ import { MdPersonOutline } from "react-icons/md";
 import { CgClose } from "react-icons/cg";
 import { TbMenu2 } from "react-icons/tb";
 import { useSelector } from "react-redux";
-import { auth } from "../config/firebase";
+import { auth } from "../firebase";
 
 function Header({ mediaWidth }) {
   const cart = useSelector((state) => state.cart);
