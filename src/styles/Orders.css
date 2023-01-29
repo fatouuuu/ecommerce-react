@@ -1,0 +1,13 @@
+.orders {
+    padding: 1em 4em;
+  }
+  
+  .orders > h1 {
+    font-size: 1.5em;
+  }
+  
+  @media screen and (max-width: 840px) {
+    .orders {
+      padding: 1em;
+    }
+  }
